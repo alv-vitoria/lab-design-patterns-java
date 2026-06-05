@@ -1,4 +1,4 @@
-# Design Patterns com Java Puro — Singleton
+# Design Patterns com Java Puro - Singleton
 
 Projeto desenvolvido como parte do bootcamp da [DIO](https://www.dio.me/), com foco em Padrões de Projeto (Design Patterns) utilizando Java puro.
 
@@ -33,9 +33,9 @@ lab-design-patterns-java/
 
 A classe `Banco` representa uma conta bancária única no sistema. Ela possui:
 
-- Construtor `private` — impede que outras classes criem instâncias diretamente
-- Atributo `static instancia` — armazena a única instância da classe
-- Método `getInstancia()` — ponto de acesso global; cria a instância apenas se ela ainda não existir
+- Construtor `private` - impede que outras classes criem instâncias diretamente
+- Atributo `static instancia` - armazena a única instância da classe
+- Método `getInstancia()` - ponto de acesso global; cria a instância apenas se ela ainda não existir
 
 ```java
 public static Banco getInstancia() {
